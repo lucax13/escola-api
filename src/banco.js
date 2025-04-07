@@ -13,7 +13,7 @@ import mysql from 'mysql2';     // importando o módulo
 //conexao remota
 const conexao = mysql.createConnection({
     host: 'db4free.net',
-    user: 'lucaslima2',
+    user: 'lucaslima5',
     password: '151106Lu',
     database: 'api_curso_2'
 });
