@@ -7,6 +7,11 @@ const porta = process.env.PORT || 3000;
 //habilitando para dar suporte ao formato json
 app.use(express.json());
 
+
+
+
+
+
 //habilitandopara dar surporte a dados inseridos a partir de inputs de formulario
 app.use(express.urlencoded({extended:true}) );
 
